@@ -1,0 +1,17 @@
+{
+    "name": "phative/framework",
+    "description": "Phative - framework to build native apps in PHP",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Phative\\Framework\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mateusz Cholewka",
+            "email": "mateusz@cholewka.com.pl"
+        }
+    ],
+    "require": {}
+}
