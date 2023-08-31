@@ -13,7 +13,7 @@ function help(): void
         Phative v0.0.1
         
         Usage:
-        app:run           Run your application
+        run           Run your application
         
         HEREDOC
         );
@@ -21,7 +21,8 @@ function help(): void
 
 function run(): void
 {
-    print_r('Running your app'.PHP_EOL);
+    print_r('Running your app...'.PHP_EOL);
+    exec('php ./bootstrap/app.php');
 }
 
 

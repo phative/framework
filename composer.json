@@ -2,6 +2,7 @@
     "name": "phative/framework",
     "description": "Phative - framework to build native apps in PHP",
     "license": "MIT",
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Phative\\Framework\\": "src/"
@@ -13,6 +14,14 @@
             "email": "mateusz@cholewka.com.pl"
         }
     ],
-    "require": {},
+    "require": {
+        "phative/render": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/phative/render"
+        }
+    ],
     "bin": ["bin/phative"]
 }
