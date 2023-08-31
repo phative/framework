@@ -22,8 +22,11 @@ function help(): void
 function run(): void
 {
     print_r('Running your app...'.PHP_EOL);
-    exec('php ./bootstrap/app.php');
+    exec(sprintf('php %s/bootstrap/app.php', getenv('ROOT_PROJECT_PATH')));
 }
 
-
-
+function build(): void
+{
+    print_r('Building your app...');
+    exec('');
+}
