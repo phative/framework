@@ -13,5 +13,6 @@
             "email": "mateusz@cholewka.com.pl"
         }
     ],
-    "require": {}
+    "require": {},
+    "bin": ["bin/phative"]
 }
