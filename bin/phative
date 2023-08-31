@@ -1,0 +1,28 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+$command = $argv[1] ?? 'help';
+call_user_func($command);
+exit(0);
+
+function help(): void
+{
+    print_r(<<<HEREDOC
+        Phative v0.0.1
+        
+        Usage:
+        app:run           Run your application
+        
+        HEREDOC
+        );
+}
+
+function run(): void
+{
+    print_r('Running your app'.PHP_EOL);
+}
+
+
+
