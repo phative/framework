@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "40ef321cf022c659202aff34cb8a426e",
+    "content-hash": "4147fdf84038a2d6d7e7828e27b94d8b",
     "packages": [
         {
             "name": "graham-campbell/result-type",
@@ -177,12 +177,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phative/render.git",
-                "reference": "d36a561ee681d5a9c74d94d2efde712dc1e72b11"
+                "reference": "c3a0f9444b33c4209b04082ca182cfbc1d13a90a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phative/render/zipball/d36a561ee681d5a9c74d94d2efde712dc1e72b11",
-                "reference": "d36a561ee681d5a9c74d94d2efde712dc1e72b11",
+                "url": "https://api.github.com/repos/phative/render/zipball/c3a0f9444b33c4209b04082ca182cfbc1d13a90a",
+                "reference": "c3a0f9444b33c4209b04082ca182cfbc1d13a90a",
                 "shasum": ""
             },
             "require": {
@@ -194,15 +194,16 @@
             "default-branch": true,
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "Phative\\Render\\": "src/",
-                    "Phative\\Render\\Test\\": "tests/"
-                },
                 "files": [
                     "src/Widget/widget.php",
                     "src/State/state.php"
-                ]
+                ],
+                "psr-4": {
+                    "Phative\\Render\\": "src/",
+                    "Phative\\Render\\Test\\": "tests/"
+                }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -214,10 +215,10 @@
             ],
             "description": "Rendering module of phative",
             "support": {
-                "source": "https://github.com/phative/render/tree/master",
-                "issues": "https://github.com/phative/render/issues"
+                "issues": "https://github.com/phative/render/issues",
+                "source": "https://github.com/phative/render/tree/master"
             },
-            "time": "2023-08-30T21:08:32+00:00"
+            "time": "2023-09-06T21:08:17+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -754,5 +755,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
