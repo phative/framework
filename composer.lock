@@ -174,16 +174,10 @@
         {
             "name": "phative/render",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/phative/render.git",
-                "reference": "c3a0f9444b33c4209b04082ca182cfbc1d13a90a"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/phative/render/zipball/c3a0f9444b33c4209b04082ca182cfbc1d13a90a",
-                "reference": "c3a0f9444b33c4209b04082ca182cfbc1d13a90a",
-                "shasum": ""
+                "type": "path",
+                "url": "../render",
+                "reference": "c3a0f9444b33c4209b04082ca182cfbc1d13a90a"
             },
             "require": {
                 "skoro/tkui": "dev-master"
@@ -191,19 +185,17 @@
             "require-dev": {
                 "phpunit/phpunit": "^10.3"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
-                "files": [
-                    "src/Widget/widget.php",
-                    "src/State/state.php"
-                ],
                 "psr-4": {
                     "Phative\\Render\\": "src/",
                     "Phative\\Render\\Test\\": "tests/"
-                }
+                },
+                "files": [
+                    "src/Widget/widget.php",
+                    "src/State/state.php"
+                ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -214,11 +206,9 @@
                 }
             ],
             "description": "Rendering module of phative",
-            "support": {
-                "issues": "https://github.com/phative/render/issues",
-                "source": "https://github.com/phative/render/tree/master"
-            },
-            "time": "2023-09-06T21:08:17+00:00"
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "phpoption/phpoption",
